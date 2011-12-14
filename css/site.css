@@ -44,7 +44,7 @@ h3{ font-size: 2.5em; }
 	border-bottom: 1px #dedede solid;
 }
 
-#header{ 
+#header { 
 	padding: 1em 0 0 0;
 	background: #fc0;
 }
@@ -103,6 +103,17 @@ h3{ font-size: 2.5em; }
 	background-image: url( ../images/icon_home.png );
 	background-position: 3px 12px;
 	background-repeat: no-repeat;	
+}
+
+#footer {
+	clear: both;
+	width: 960px;
+	margin: 20px auto;
+}
+
+#footer p {
+	padding-top: 20px;
+	text-align: center;
 }
 
 
