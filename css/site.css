@@ -32,13 +32,18 @@ h3{ font-size: 2.5em; }
 .logistics{
 	margin-bottom: 2em;
 }
-.logistics ul{
-	list-style: none;
+
+.logistics ul,
+.logistics ol {
 	list-style-position: inside;
 	margin: 0;
 }
 
-.logistics li{
+.logistics ul {
+	list-style: none;
+}
+
+.logistics li {
 	padding: .5em 0;
 	margin: 0;
 	border-bottom: 1px #dedede solid;
@@ -161,7 +166,7 @@ h3{ font-size: 2.5em; }
 
 .gridbox th{
 	text-align: left;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 1em 0 .5em .4em;
 	border-top: 1px #000 solid;
 }
@@ -171,6 +176,14 @@ h3{ font-size: 2.5em; }
 	padding: .5em;
 	border: 1px #fff solid;
 	background: #eee;
+}
+
+tr.free td {
+	background: #ccc;
+}
+
+a {
+	cursor: pointer;
 }
 
 .faq p.q{
@@ -183,13 +196,22 @@ h3{ font-size: 2.5em; }
 	margin: 0 0 1em 0;
 }
 
-
 /* -------------------------------------------------------------------------------------------------
     Links
 ---------------------------------------------------------------------------------------------------- */
 
-a { text-decoration:underline; color:#0af; }
+a { 
+	text-decoration:underline; 
+	color:#0af;
+	cursor: pointer;
+	}
+	
 a:focus { outline: 1px dotted; }
+
+a.hoverMenu {
+	text-decoration: none;
+	color:#333;
+}
 
 /* -------------------------------------------------------------------------------------------------
     Spacing
