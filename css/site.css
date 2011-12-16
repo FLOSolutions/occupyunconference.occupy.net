@@ -32,13 +32,18 @@ h3{ font-size: 2.5em; }
 .logistics{
 	margin-bottom: 2em;
 }
-.logistics ul{
-	list-style: none;
+
+.logistics ul,
+.logistics ol {
 	list-style-position: inside;
 	margin: 0;
 }
 
-.logistics li{
+.logistics ul {
+	list-style: none;
+}
+
+.logistics li {
 	padding: .5em 0;
 	margin: 0;
 	border-bottom: 1px #dedede solid;
